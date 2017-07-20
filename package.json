@@ -1,0 +1,43 @@
+{
+  "name": "jest-json-to-tap",
+  "version": "0.0.0-semantically-released",
+  "description": "Jest Json parser that outputs TAP results",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ignore-path .gitignore '**/*.js'",
+    "precommit": "npm run lint",
+    "prepush": "npm test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "bin": {
+    "jest-json-to-tap": "index.js"
+  },
+  "author": "MailOnline <fe@mailonline.co.uk>",
+  "homepage": "https://github.com/MailOnline/mol-fe-jest-tap-results-processor",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MailOnline/mol-fe-jest-tap-results-processor.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "commitizen": "^2.9.5",
+    "eslint": "^4.2.0",
+    "eslint-config-mailonline": "^7.0.1",
+    "husky": "^0.14.3",
+    "jest": "^20.0.4",
+    "mol-conventional-changelog": "^1.2.0",
+    "semantic-release": "^6.3.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/mol-conventional-changelog"
+    }
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "index.js"
+    ]
+  }
+}

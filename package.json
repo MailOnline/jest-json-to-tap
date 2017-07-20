@@ -14,10 +14,10 @@
     "jest-json-to-tap": "index.js"
   },
   "author": "MailOnline <fe@mailonline.co.uk>",
-  "homepage": "https://github.com/MailOnline/mol-fe-jest-tap-results-processor",
+  "homepage": "https://github.com/MailOnline/jest-json-to-tap",
   "repository": {
     "type": "git",
-    "url": "git@github.com:MailOnline/mol-fe-jest-tap-results-processor.git"
+    "url": "git@github.com:MailOnline/jest-json-to-tap.git"
   },
   "license": "MIT",
   "devDependencies": {

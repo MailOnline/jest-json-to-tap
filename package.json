@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git@github.com:MailOnline/mol-fe-jest-tap-results-processor.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "commitizen": "^2.9.5",
     "eslint": "^4.2.0",

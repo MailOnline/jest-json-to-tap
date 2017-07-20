@@ -11,7 +11,7 @@ npm install -g jest-json-to-tap
 then you just need to redirect Jest's json output to it
 
 ```
-$ jest --json 2>/dev/null | jest-jsont-to-tap
+$ jest --json 2>/dev/null | jest-json-to-tap
 ```
 
 Beware in the command above we muted stderr to remove all extra msgs that jest outputs on stderr.

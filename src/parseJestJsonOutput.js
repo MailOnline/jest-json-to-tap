@@ -3,7 +3,7 @@
   this function stripts all that undesired text
 */
 const parseJestJsonOutput = (output) => {
-  const start = output.indexOf('{');
+  const start = output.lastIndexOf('{', output.indexOf('numFailedTestSuites'));
   const end = output.lastIndexOf('}');
 
   return JSON.parse(output.substring(start, end + 1));

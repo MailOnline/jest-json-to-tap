@@ -1,0 +1,213 @@
+
+ RUNS  ...screen.spec.js
+ RUNS  ...navigateTo.spec.js
+ RUNS  ...createNavigationElement.spec.js
+
+Test Suites: 0 of 4 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0s
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+ RUNS  ...screen.spec.js
+ RUNS  ...navigateTo.spec.js
+ RUNS  ...createNavigationElement.spec.js
+
+Test Suites: 0 of 4 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1s
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+ RUNS  ...screen.spec.js
+ RUNS  ...navigateTo.spec.js
+ RUNS  ...createNavigationElement.spec.js
+
+Test Suites: 0 of 4 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        2sbabel-preset-env: `DEBUG` option
+
+Using targets:
+{
+  "node": "8.1.4"
+}
+
+Modules transform: commonjs
+
+Using plugins:
+babel-preset-env: `DEBUG` option
+
+Using targets:
+{
+  "node": "8.1.4"
+}
+
+Modules transform: commonjs
+
+Using plugins:
+babel-preset-env: `DEBUG` option
+
+Using targets:
+{
+  "node": "8.1.4"
+}
+
+Modules transform: commonjs
+
+Using plugins:
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+ RUNS  ...screen.spec.js
+ RUNS  ...navigateTo.spec.js
+ RUNS  ...createNavigationElement.spec.js
+
+Test Suites: 0 of 4 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        2s
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+ RUNS  ...screen.spec.js
+ RUNS  ...navigateTo.spec.js
+ RUNS  ...createNavigationElement.spec.js
+
+Test Suites: 0 of 4 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        2s
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+ RUNS  ...screen.spec.js
+ RUNS  ...element.spec.js
+
+Test Suites: 2 passed, 2 of 4 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        2s
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+ RUNS  ...screen.spec.js
+ RUNS  ...element.spec.js
+
+Test Suites: 2 passed, 2 of 4 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        2s
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+ RUNS  ...screen.spec.js
+ RUNS  ...element.spec.js
+
+Test Suites: 2 passed, 2 of 4 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        2s
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A
+[K
+[1A{"numFailedTestSuites":0,"numFailedTests":0,"numPassedTestSuites":4,"numPassedTests":5,"numPendingTestSuites":0,"numPendingTests":0,"numRuntimeErrorTestSuites":0,"numTotalTestSuites":4,"numTotalTests":5,"snapshot":{"added":0,"didUpdate":false,"failure":false,"filesAdded":0,"filesRemoved":0,"filesUnmatched":0,"filesUpdated":0,"matched":0,"total":0,"unchecked":0,"unmatched":0,"updated":0},"startTime":1501842299306,"success":true,"testResults":[{"assertionResults":[{"failureMessages":[],"status":"passed","title":"must change the location"}],"endTime":1501842301731,"message":"","name":"/Users/claudiorodriguezbovegenio/projects/molas4/packages/mol-fe-previous-next-navigation/test/unit/utils/navigateTo.spec.js","startTime":1501842300688,"status":"passed","summary":""},{"assertionResults":[{"failureMessages":[],"status":"passed","title":"must create a navigation element"}],"endTime":1501842301744,"message":"","name":"/Users/claudiorodriguezbovegenio/projects/molas4/packages/mol-fe-previous-next-navigation/test/unit/utils/createNavigationElement.spec.js","startTime":1501842300679,"status":"passed","summary":""},{"assertionResults":[{"failureMessages":[],"status":"passed","title":"screenBreakPoint must return true if the body width is bigger than 1485 and false otherwise"},{"failureMessages":[],"status":"passed","title":"calculateAvailableWidth must return the available"}],"endTime":1501842301865,"message":"","name":"/Users/claudiorodriguezbovegenio/projects/molas4/packages/mol-fe-previous-next-navigation/test/unit/utils/screen.spec.js","startTime":1501842300676,"status":"passed","summary":""},{"assertionResults":[{"failureMessages":[],"status":"passed","title":"getElementWidth must return the elements offset width"}],"endTime":1501842301889,"message":"","name":"/Users/claudiorodriguezbovegenio/projects/molas4/packages/mol-fe-previous-next-navigation/test/unit/utils/element.spec.js","startTime":1501842301760,"status":"passed","summary":""}],"wasInterrupted":false}

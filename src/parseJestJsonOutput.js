@@ -5,8 +5,9 @@
 const parseJestJsonOutput = (output) => {
   const start = output.lastIndexOf('{', output.indexOf('numFailedTestSuites'));
   const end = output.lastIndexOf('}');
+  const jsonOutput = output.substring(start, end + 1).replace(',,', ',');
 
-  return JSON.parse(output.substring(start, end + 1));
+  return JSON.parse(jsonOutput);
 };
 
 module.exports = parseJestJsonOutput;

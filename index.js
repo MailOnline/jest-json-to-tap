@@ -19,5 +19,10 @@ stdin.on('end', () => {
 
   stdout.write(jestOutputToTab(jestOutput));
   stdout.write('\n');
+
+  if (jestOutput.numFailedTests > 0) {
+    // eslint-disable-next-line no-process-exit
+    process.exit(1);
+  }
 });
 

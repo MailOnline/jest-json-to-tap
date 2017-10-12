@@ -14,7 +14,7 @@ stdin.on('data', (chunk) => {
 });
 
 stdin.on('end', () => {
-  const jestJsonOutput = inputChunks.join();
+  const jestJsonOutput = inputChunks.join('');
   const jestOutput = parseJestJsonOutput(jestJsonOutput);
 
   stdout.write(jestOutputToTab(jestOutput));

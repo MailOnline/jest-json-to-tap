@@ -1,4 +1,6 @@
 # jest-json-to-tap
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/MailOnline/jest-json-to-tap.svg)](https://greenkeeper.io/)
 Jest Json parser that outputs [TAP](https://testanything.org/tap-specification.html) results
 
 ## Usage

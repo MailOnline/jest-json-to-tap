@@ -39,8 +39,5 @@
       "src/**/*.js",
       "index.js"
     ]
-  },
-  "dependencies": {
-    "stream-buffers": "^3.0.1"
   }
 }
